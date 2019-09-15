@@ -9,7 +9,7 @@
   <%
     } else {
   %>
-      <h2>Well, again life goes on ... </h2><p>(<%= num %>)</p>
+      <h2>Well, for the 3rd time, life goes on ... </h2><p>(<%= num %>)</p>
   <%
     }
   %>
