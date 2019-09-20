@@ -1,10 +1,18 @@
-<html>
+<!-- <html>
 <head><title>First JSP</title></head>
 <body>
- <%
-      <h2>You clicked once!</h2><p>(<%= num %>)</p>
+  <%
+    double num = Math.random();
+    if (num > 0.95) {
+  %>
+      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+  <%
+    } else {
+  %>
+      <h2>Well, for the 3rd time, life goes on ... </h2><p>(<%= num %>)</p>
+  <%
     }
   %>
-  <a href="<%= request.getRequestURI() %>"><h3>Click again</h3></a>
-</body>
-</html>
+  <!-- <a href="clickone.jsp"><h3>Try Again</h3></a> -->
+
+<%= "Hello World!" %>
