@@ -9,10 +9,10 @@
   <%
     } else {
   %>
-      <h2>Well, for the 3rd time, life goes on ... </h2><p>(<%= num %>)</p>
+      <h2>You haven't scored a lucky numnber but you can click to go forward! </h2><p>(<%= num %>)</p>
   <%
     }
   %>
-  <a href="clickone.jsp"><h3>Try Again</h3></a>
+  <a href="clickone.jsp"><h3>next page</h3></a>
 </body>
 </html>
